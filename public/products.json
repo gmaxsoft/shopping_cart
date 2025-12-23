@@ -1,0 +1,130 @@
+[
+  {
+    "id": "p1",
+    "title": "Kawa ziarnista Andes",
+    "description": "Aromatyczna mieszanka arabiki z nutą karmelu.",
+    "price": 49.9,
+    "image": "/images/product-1.svg"
+  },
+  {
+    "id": "p2",
+    "title": "Herbata zielona Sencha",
+    "description": "Delikatne liście z Japonii o świeżym aromacie.",
+    "price": 29.5,
+    "image": "/images/product-2.svg"
+  },
+  {
+    "id": "p3",
+    "title": "Miód lipowy 400g",
+    "description": "Naturalny miód z lokalnej pasieki, słodki i łagodny.",
+    "price": 24.99,
+    "image": "/images/product-3.svg"
+  },
+  {
+    "id": "p4",
+    "title": "Masło orzechowe crunchy",
+    "description": "100% orzechów ziemnych, chrupiąca konsystencja.",
+    "price": 18.5,
+    "image": "/images/product-4.svg"
+  },
+  {
+    "id": "p5",
+    "title": "Makaron razowy fusilli",
+    "description": "Pełnoziarnisty, bogaty w błonnik, idealny do sosów.",
+    "price": 8.99,
+    "image": "/images/product-5.svg"
+  },
+  {
+    "id": "p6",
+    "title": "Sos pomidorowy rustico",
+    "description": "Gęsty sos z dojrzewających w słońcu pomidorów.",
+    "price": 11.75,
+    "image": "/images/product-6.svg"
+  },
+  {
+    "id": "p7",
+    "title": "Oliwa z oliwek extra virgin",
+    "description": "Tłoczona na zimno, idealna do sałatek i past.",
+    "price": 39.0,
+    "image": "/images/product-1.svg"
+  },
+  {
+    "id": "p8",
+    "title": "Kasza bulgur",
+    "description": "Średnioziarnista, szybko gotująca się, do sałatek.",
+    "price": 7.5,
+    "image": "/images/product-2.svg"
+  },
+  {
+    "id": "p9",
+    "title": "Czekolada gorzka 80%",
+    "description": "Intensywny smak kakao, delikatnie słodzona.",
+    "price": 12.4,
+    "image": "/images/product-3.svg"
+  },
+  {
+    "id": "p10",
+    "title": "Granola orzechowa",
+    "description": "Chrupiące płatki z orzechami i miodem.",
+    "price": 16.95,
+    "image": "/images/product-4.svg"
+  },
+  {
+    "id": "p11",
+    "title": "Płatki owsiane górskie",
+    "description": "Bez dodatku cukru, idealne na śniadanie.",
+    "price": 5.99,
+    "image": "/images/product-5.svg"
+  },
+  {
+    "id": "p12",
+    "title": "Pesto bazyliowe",
+    "description": "Świeża bazylia, oliwa i orzeszki piniowe.",
+    "price": 14.25,
+    "image": "/images/product-6.svg"
+  },
+  {
+    "id": "p13",
+    "title": "Chleb żytni na zakwasie",
+    "description": "Wilgotny, o lekko kwaskowatym smaku.",
+    "price": 9.3,
+    "image": "/images/product-1.svg"
+  },
+  {
+    "id": "p14",
+    "title": "Ser kozi dojrzewający",
+    "description": "Wyrazisty smak i kremowa konsystencja.",
+    "price": 27.8,
+    "image": "/images/product-2.svg"
+  },
+  {
+    "id": "p15",
+    "title": "Jogurt naturalny 3,5%",
+    "description": "Gęsty, bez dodatku cukru, żywe kultury bakterii.",
+    "price": 3.99,
+    "image": "/images/product-3.svg"
+  },
+  {
+    "id": "p16",
+    "title": "Krem czekoladowy z orzechami",
+    "description": "Jedwabisty krem z chrupiącymi kawałkami orzechów.",
+    "price": 19.5,
+    "image": "/images/product-4.svg"
+  },
+  {
+    "id": "p17",
+    "title": "Woda mineralna 1,5L",
+    "description": "Naturalnie gazowana, wysoka mineralizacja.",
+    "price": 2.8,
+    "image": "/images/product-5.svg"
+  },
+  {
+    "id": "p18",
+    "title": "Sok jabłkowy tłoczony",
+    "description": "Bez koncentratu, mętny, 100% jabłka.",
+    "price": 6.45,
+    "image": "/images/product-6.svg"
+  }
+]
+
+

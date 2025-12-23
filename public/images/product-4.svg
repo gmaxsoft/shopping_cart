@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="grad4" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#grad4)" rx="24" />
+  <path d="M80 300 Q200 120 320 260 T560 200" fill="none" stroke="#f8fafc" stroke-width="28" stroke-linecap="round" opacity="0.25" />
+  <text x="50%" y="46%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, system-ui" font-size="42" font-weight="700" fill="#f8fafc">
+    Rzemieślnicze
+  </text>
+  <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, system-ui" font-size="20" fill="#e2e8f0">
+    małe partie, duża jakość
+  </text>
+</svg>
+
+

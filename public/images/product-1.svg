@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="grad1" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#grad1)" rx="24" />
+  <circle cx="120" cy="120" r="70" fill="#22c55e" opacity="0.22" />
+  <circle cx="480" cy="260" r="90" fill="#38bdf8" opacity="0.18" />
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, system-ui" font-size="44" font-weight="700" fill="#e2e8f0">
+    Klasyka smaku
+  </text>
+  <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, system-ui" font-size="20" fill="#cbd5e1">
+    ręcznie dobierane składniki
+  </text>
+</svg>
+
+

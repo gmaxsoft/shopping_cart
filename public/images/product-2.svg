@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="grad2" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#grad2)" rx="24" />
+  <rect x="70" y="70" width="140" height="140" fill="#0f172a" opacity="0.12" rx="24" />
+  <rect x="390" y="190" width="140" height="140" fill="#f8fafc" opacity="0.12" rx="24" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, system-ui" font-size="40" font-weight="700" fill="#f8fafc">
+    Świeżość
+  </text>
+  <text x="50%" y="64%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, system-ui" font-size="20" fill="#e2e8f0">
+    codziennie nowe dostawy
+  </text>
+</svg>
+
+
