@@ -9,7 +9,7 @@ type MenuProps = {
   isCartOpen: boolean
   toggleCart: () => void
   clearCart: () => void
-  updateQuantity: (productId: string, delta: number) => void
+  updateQuantity: (productId: string, delta: number) => voidmenu
   removeFromCart: (productId: string) => void
 }
 
