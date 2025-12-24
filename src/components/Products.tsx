@@ -132,13 +132,13 @@ function Products({
                         {product.description}
                       </p>
                     </div>
-                    <span className="rounded-full bg-slate-900 px-3 py-1 text-sm font-semibold text-white">
-                      {product.price.toFixed(2)} zł
+                    <span className="rounded-full bg-slate-900 px-3 py-1 text-sm font-semibold text-white min-w-24 text-center sm:min-w-24">
+                      <strong>{product.price.toFixed(2)} zł</strong>
                     </span>
                   </div>
 
                   <button
-                    className="mt-auto inline-flex w-fit items-center justify-center gap-2 rounded-lg bg-emerald-500 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-600 focus:outline-none focus:ring-2 focus:ring-emerald-300"
+                    className="inline-flex w-fit items-center justify-center gap-2 rounded-lg bg-emerald-500 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-600 focus:outline-none focus:ring-2 focus:ring-emerald-300"
                     onClick={() => addToCart(product)}
                   >
                     ➕ Dodaj
