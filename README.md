@@ -35,7 +35,7 @@ Aplikacja e-commerce z koszykiem zakupów zbudowana w React z TypeScript. Projek
 ## 📁 Struktura projektu
 
 ```
-shopCart_cursor/
+shopping_cart/
 ├── public/
 │   ├── images/          # Obrazy produktów
 │   └── products.json    # Dane produktów
@@ -103,7 +103,7 @@ shopCart_cursor/
 1. **Sklonuj repozytorium** (lub pobierz projekt):
    ```bash
    git clone <url-repozytorium>
-   cd shopCart_cursor
+   cd shopping_cart
    ```
 
 2. **Zainstaluj zależności**:
