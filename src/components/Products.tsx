@@ -8,7 +8,7 @@ export type Product = {
   image: string
 }
 
-const PRODUCTS_PER_PAGE = 6
+const PRODUCTS_PER_PAGE = import.meta.env.VITE_PRODUCTS_PER_PAGE || 6
 
 type ViewMode = 'grid' | 'list'
 
