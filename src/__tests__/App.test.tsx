@@ -25,7 +25,7 @@ const mockProducts = [
 
 describe('App', () => {
   beforeEach(() => {
-    global.fetch = mockFetch
+    globalThis.fetch = mockFetch as typeof fetch
     mockFetch.mockResolvedValue({
       ok: true,
       json: async () => mockProducts,
