@@ -29,13 +29,13 @@ jobs:
         run: npm ci
 
       - name: Sprawdzanie typów TypeScript
-        run: npm run build -- --mode test || npx tsc --noEmit
+        run: npx tsc --noEmit
 
       - name: Uruchamianie lintera
         run: npm run lint
 
       - name: Uruchamianie testów
-        run: npm run test -- --run
+        run: npx vitest run
 
       - name: Budowanie projektu
         run: npm run build
