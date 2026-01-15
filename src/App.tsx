@@ -62,6 +62,7 @@ function App() {
             if (!item) return prev
             const nextQty = item.quantity + delta
             if (nextQty <= 0) {
+              // eslint-disable-next-line @typescript-eslint/no-unused-vars
               const { [productId]: _, ...rest } = prev
               return rest
             }
@@ -73,6 +74,7 @@ function App() {
         }}
         removeFromCart={(productId) => {
           setCart((prev) => {
+            // eslint-disable-next-line @typescript-eslint/no-unused-vars
             const { [productId]: _, ...rest } = prev
             return rest
           })
