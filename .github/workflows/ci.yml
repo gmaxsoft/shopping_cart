@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    name: Testy i Build
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+      - name: Checkout kodu
+        uses: actions/checkout@v4
+
+      - name: Konfiguracja Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Instalacja zależności
+        run: npm ci
+
+      - name: Sprawdzanie typów TypeScript
+        run: npm run build -- --mode test || npx tsc --noEmit
+
+      - name: Uruchamianie lintera
+        run: npm run lint
+
+      - name: Uruchamianie testów
+        run: npm run test -- --run
+
+      - name: Budowanie projektu
+        run: npm run build
